@@ -10,16 +10,16 @@ cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-cl.login(qr=True)
-cl.loginResult()
+ki.login(qr=True)
+ki.loginResult()
 
 kk = LINETCR.LINE()
-cl.login(qr=True)
-cl.loginResult()
+kk.login(qr=True)
+kk.loginResult()
 
 kc = LINETCR.LINE()
-cl.login(qr=True)
-cl.loginResult()
+kc.login(qr=True)
+kc.loginResult()
 
 print "login success"
 reload(sys)
@@ -68,7 +68,7 @@ Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
 -- Joinn on/off
 """
 KAC=[cl,ki,kk,kc]
-DEF=[cl,ki,kk,kc]
+DEF=[kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
